@@ -131,12 +131,18 @@ background-position: top center;
    min-height: 200px;
    color:#fff;
    margin-bottom: 10px;
+
 }
 .menucard div.content{
     position: absolute;
     font-size: 1.1rem;
     z-index: 3;
 padding:40px 20px 40px 20px;
+width:100%;
+
+}
+.menucard div.content p{
+    margin:0px auto;
 }
 .menucard h3{
 font-size: 1.2rem;
@@ -151,7 +157,7 @@ font-weight: bold;
     
     position: absolute;
 }
-.menucard div.content a{
+.menucard div.content a.small-orange, .cafecard a.small-orange{
     font-size: 0.8rem;
     color: #e59d75;
 }
@@ -162,10 +168,46 @@ font-weight: bold;
     border-style: solid;
     border-width: 2px;
     display: inline-block;
-    padding: 10px;
+    padding: 10px 20px 10px 20px;
  }
   .navigation:hover{
       color: #27292b;
       text-decoration: none;
        border-color: #ddb19b;
   }
+  .cafe{
+      background: url(../img/fon.png) no-repeat;
+      background-size: cover;
+      height: auto;
+
+  }
+  .cafe h2{
+      padding: 20px;
+      color: #fff;
+  }
+  .photo{
+       margin: 20px;
+  }
+  .about{
+      background-color: #fff;
+      width: 90%;
+      margin: 0 auto 20px auto;
+      
+      text-align: left;
+      padding: 20px;
+  }
+
+  .cafecard img{
+      width: 90%;
+  }
+ .history>p{
+padding: 0px 40px 0px 40px;
+  }
+
+  .cafebutton{
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+    .photo img{
+        width:100%;
+    }
