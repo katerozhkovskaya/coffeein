@@ -4,28 +4,36 @@
     margin:0;
     padding:0;
     font-family: 'Rokkitt', sans-serif; 
+}
+header div.content,section,footer{
+    width:800px;
+    margin: 0 auto;
     text-align: center;
 }
-nav+p{
-font-size: 5.5rem;
-}
-.small {
-     font-size: 1.8rem;
+
+ul{
+    list-style: none;
 }
 a {
     font-family: 'Libre Baskville', sans-serif;
-    color: black;
     text-decoration: none;
 } 
 
- header nav .menu{
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
- }
-
+.dark-blue-text {
+color: #0A38F5;
+}
+.fa-1x {
+    font-size: 1.5rem;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa-bars:before {
+    content: "\f0c9";
+}
  a:hover {
      color: orange;
  }
