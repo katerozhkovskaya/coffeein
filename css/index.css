@@ -81,11 +81,14 @@ color: #0A38F5;
  a:hover {
      color: orange;
  }
- .booking{
-     background-color: #988378;
-     color: #fff;
+ .caffeebutton{
+ 
      padding: 20px;
      font-size: 0.8rem;  
+ }
+ .booking{
+    background-color: #988378;
+     color: #fff;
  }
 
  .booking:hover{
@@ -112,3 +115,57 @@ section h2{
     margin: 30px auto;
     font-size: 1.8rem;
 }
+
+.fourcups{
+background: url(../img/four-cups-coffee.png) no-repeat;
+ 
+}
+
+.sendvich{
+    background: url(../img/sendvich-with-eggs.png) no-repeat;
+
+}
+.menucard{
+background-position: top center;
+   background-size: cover;
+   min-height: 200px;
+   color:#fff;
+   margin-bottom: 10px;
+}
+.menucard div.content{
+    position: absolute;
+    font-size: 1.1rem;
+    z-index: 3;
+padding:40px 20px 40px 20px;
+}
+.menucard h3{
+font-size: 1.2rem;
+font-weight: bold;
+}
+.menucard div.bg{
+    opacity: 0.75;
+    z-index: 2;
+    background: #000;
+    width:100%;
+    height: 200px;
+    
+    position: absolute;
+}
+.menucard div.content a{
+    font-size: 0.8rem;
+    color: #e59d75;
+}
+ .navigation{
+   margin: 20px auto;
+       color: #27292b;
+       border-color: #ecc9b7;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+    padding: 10px;
+ }
+  .navigation:hover{
+      color: #27292b;
+      text-decoration: none;
+       border-color: #ddb19b;
+  }
