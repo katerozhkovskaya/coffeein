@@ -5,12 +5,57 @@
     padding:0;
     font-family: 'Rokkitt', sans-serif; 
 }
+*{
+   font-family: 'Rokkitt', serif; 
+
+}
 header div.content,section,footer{
-    width:800px;
+    width:100%;
     margin: 0 auto;
     text-align: center;
 }
+header div.content{
+    color:#fff;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+header div.bg{
+  
+    width:100%;
+    height: 500px;
+    background: #000;
+    opacity: 0.75;z-index: 1;
+}
+header div.content .navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+header div.content  .logo{
+    color:#fff;
+    font-weight: bold;
+    font-family: 'Rokkitt', sans-serif; 
+    font-size: 1.8rem;
+}
+header div.content .nav-placeholder{
+    padding-bottom: 60px;
+}
+header div.content div.nav-headertext{
+min-height: 440px;
 
+}
+header div.content div.nav-topcaptions{
+ font-weight: bold;
+    font-family: 'Rokkitt', sans-serif; 
+
+}
+header div.content div.nav-topcaptions h2{
+       
+    font-size: 2.3rem;line-height:4rem;
+}
+header div.content div.nav-topcaptions h3{
+   
+    font-size: 1.9rem;line-height: 1rem;
+}
 ul{
     list-style: none;
 }
@@ -22,17 +67,16 @@ a {
 .dark-blue-text {
 color: #0A38F5;
 }
-.fa-1x {
-    font-size: 1.5rem;
+.openmenu{
+
+    width:32px;
+    height: 32px;
+    background: url(../img/menu.svg) no-repeat;
+    background-size:32px;
+    display: block;
 }
-.fa, .fas {
-    font-weight: 900;
-}
-.fa, .far, .fas {
-    font-family: "Font Awesome 5 Free";
-}
-.fa-bars:before {
-    content: "\f0c9";
+.openmenu:hover{
+    opacity: 0.6;
 }
  a:hover {
      color: orange;
@@ -56,3 +100,15 @@ color: #0A38F5;
     background-size: cover;
     min-height: 500px;
  }
+
+
+section{
+
+}
+
+section h2{
+
+    font-weight: bold;
+    margin: 30px auto;
+    font-size: 1.8rem;
+}
