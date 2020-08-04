@@ -482,4 +482,76 @@ section .book-form{
     .wins .cup img{
         width:70%;
     }
+    .column{
+        display: inline-block;
+        vertical-align: middle;
+        width:33%;
+    }
+    .column .registration{
+        /*width: 70%;*/
+    }
+    .author{
+       display: inline-block;
+        vertical-align: middle;
+        width:49%; 
+
+    }
+    .right{
+        text-align: right;
+    }
+    .left{
+        text-align: left;
+    }
+    .center{
+        text-align: center;
+    }
+    .footer-block{
+        white-space: nowrap;
+    }
+    .footer-block .column p{
+
+    }
+     .footer-block div.column{
+         white-space: normal;
+         padding: 30px;
+     }
+    .footer-block .column ul{
+         columns: 2;
+    }
+    .footer-block .registration input{
+display: inline-block;
+    }
+        .footer-block .registration button{
+display: inline-block;
+    }
+    .column20{
+        width: 30%;
+    }
+      .column60{
+        width: 40%;
+    }
+    .cafe .cafecard{
+        display: inline-block;
+        width:47%;
+        vertical-align: top;
+    }
+    div.cafecard-container{
+        display: flex;
+    }
+     div.cafecard-container .cafecard{
+         flex-direction: row;
+     }
+    .img-wrapper{
+        width: 100%;
+        height: 440px;
+         flex-basis: 50%;
+        overflow: hidden;
+        max-width: 50%;
+    }
+     div.cafecard-container .cafecard div.about{
+         height: 440px;
+             flex-basis: 50%;
+             max-width: 50%;
+     }
+    
 }
