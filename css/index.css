@@ -45,6 +45,9 @@ header div.content .navbar-light .navbar-nav .nav-link{
         background: url(../img/top.svg) no-repeat;
         background-size: 42px;
     }
+     .buttonhome a:hover{
+    opacity: 0.7;
+    }
 header div.content  .logo{
     color:#fff;
     font-weight: bold;
@@ -586,19 +589,7 @@ display: inline-block;
      .flleft{
          float: left;
      }
-    .buttonhome{
-        position: fixed;
-        right: 100px;
-        bottom: 50px;
-        z-index: 100;
-    }
-    .buttonhome a{
-        display: block;
-        width:42px;
-        height: 42px;
-        background: url(../img/top.svg) no-repeat;
-        background-size: 42px;
-    }
+    
     .cafebutton{
             display: block;
     margin-bottom: 30px;
@@ -664,4 +655,5 @@ header div.content div.nav-topcaptions h2{
     font-weight: bold;
     padding-bottom: 10px;
 }
+
 }
