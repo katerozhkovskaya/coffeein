@@ -281,11 +281,15 @@ text-decoration: none;
         color: #e59d75;
 }
 .addres p{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
          color: #71706f;
+        margin-bottom: 20px;
 }
 .addres h3{
-    font-size: 1.5rem;
+    margin-top: 20px;
+    font-size: 1.3rem;
+     font-weight: bold;
+    
 }
 #contacts{
     background: url(../img/fon-grey.png) no-repeat;
@@ -294,16 +298,98 @@ text-decoration: none;
 footer{
     background-color: #27292b;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+
 }
 footer a{
     color: white;
      text-decoration: none;
+      font-size: 1.1rem;
+      font-family: serif;
 }
 footer a:hover{
    color: #e59d75;
    text-decoration: none;
 }
-br{
-  
+.registration{
+    text-align: center;
+    font-size: 0.9rem;
 }
+footer div a.logo{
+    font-style: bold;
+    font-family: 'Rokkitt', sans-serif; 
+     font-size: 1.3rem;
+}
+footer div a.logo:hover{
+    color: white;
+}
+ footer div {
+     margin: 20px;
+ }
+ .author{
+     font-size: 0.8rem;
+     font-family: serif;
+     opacity: 0.8;
+     font-style: normal;
+ }
+ hr{
+
+     background-color:  white;
+     margin: 0 20px 0 20px;
+ }
+.registration input {
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+}
+.registration button, .form-submit button{
+    margin: 10px;
+   width: 100%;
+   padding: 10px;
+    background-color: #988378;
+    border: none;
+    color: white;
+}
+
+.registration button:hover, .form-submit button:hover{
+border: 2px solid #cfa893;    
+}
+.registration input{
+    margin: 10px;
+   width: 100%;
+   padding: 10px;
+  background-color: rgba(255, 255, 255, 0.24);
+    border: none;
+}
+.form-back{
+    background-image:  url(../img/banner.jpeg);
+    display: flex;
+    background-position: top;
+    background-size: cover;
+    min-height: 500px;
+ 
+}
+section .book-form{
+    margin: 20px;
+    background-color: white;
+    color: black;  
+    width: 100%; 
+}
+
+.book-form h3{
+    margin: 50px 0 0 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.book-form p{
+   font-size: 1.5rem;
+       color: #71706f;
+}
+ 
+ .info{
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(39, 41, 43, 0.12);
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+ }

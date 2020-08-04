@@ -186,57 +186,62 @@
             </div>
         </section>
         <section id="book-in">
-            <div>
+            <div class="form-back">
+            <div class="book-form">
                 <h3>Бронирование</h3>
                 <p>Закажите столик в нашем кафе!</p>
                 <form>
-                    <input type="text" name="name" placeholder="Имя*" required>
+                    <input class="info" type="text" name="name" placeholder="Имя*" required>
                     <br>
-                    <input type="tel" name="phone" placeholder="Номер телефона*" required>
+                    <input class="info" type="tel" name="phone" placeholder="Номер телефона*" required>
                     <br>
-                    <input type="text" name="amount" placeholder="Количество гостей">
+                    <input class="info" type="text" name="amount" placeholder="Количество гостей">
                     <br>
-                    <input type="text" name="time" placeholder="Время">
+                    <input class="info" type="text" name="time" placeholder="Время">
                     <br>
-                    <textarea placeholder="Комментарии" name="comments"></textarea>
+                    <textarea class="info" placeholder="Комментарии" name="comments"></textarea>
                     <br>
+                    <div  class="form-submit">
                     <button type="submit">Подтвердить</button>
+                    </div>
                 </form>                
+            </div>
             </div>
         </section>       
     </main>
     <footer>
         <div>
             <div>
-                <a href="#" class="font">CoffeeIn</a>
+                <a href="#" class="logo">CoffeeIn</a>
                 <p>Приглашаем посетить нашу кофейню и попробовать самые вкусные кофейные напитки 
                 в этом районе.</p>
             </div>
             <div>
                 <nav>
-                    <a href="menu.html">Меню</a>
-                    <a href="work.html">Вакансии</a>
-                    <a href="gallery.html">Галлерея</a>
-                    <a href="history.html">О нас</a>
-                    <a href="#wins.html">Награды</a>
-                    <a href="contact.html">Контакты</a>
+                    <ul><li><a href="menu.html">Меню</a></li>
+                    <li><a href="work.html">Вакансии</a></li>
+                    <li><a href="gallery.html">Галлерея</a></li>
+                    <li><a href="history.html">О нас</a></li>
+                    <li><a href="#wins.html">Награды</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    </ul>
                 </nav>
             </div>
             <div>
                 <p>Подпишитесь, чтобы получать последние новости от нас</p>
                 <div class="registration">
-                    <input type="email" name="email" required placeholder="Email*">
+                    <input class="registration" type="email" name="email" required placeholder="Email*">
                     <br>
-                    <button type="submit">Подписаться</button>
+                    <button  class="registration" type="submit">Подписаться</button>
                 </div>            
             </div>
         </div>
         <hr>
         <div>
-            <div>
+            <div class="author">
                 <p>© Rozhkovska.com</p>
             </div>
-            <div>
+            <div class="author">
                 <p>All rights Reserved</p>
             </div>
         </div>
