@@ -32,12 +32,27 @@ header div.bg{
 header div.content .navbar-light .navbar-nav .nav-link{
     color:#fff;
 }
-
+  .buttonhome{
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 100;
+    }
+    .buttonhome a{
+        display: block;
+        width:42px;
+        height: 42px;
+        background: url(../img/top.svg) no-repeat;
+        background-size: 42px;
+    }
 header div.content  .logo{
     color:#fff;
     font-weight: bold;
     font-family: 'Rokkitt', sans-serif; 
     font-size: 1.8rem;
+}
+header div.content .logo:hover{
+   color: white;
 }
 
 header div.content .nav-placeholder{
@@ -89,6 +104,9 @@ a {
  a:hover {
     color: orange;
  }
+ a.booking.caffeebutton:hover{
+            text-decoration: none;
+}
 
  .caffeebutton{
     padding: 20px;
@@ -216,7 +234,7 @@ font-size: 1.2rem;
 }
    
 .photo img{
-    width:100%;
+    width:50%;
 }
 
 .wins p, .job p{
@@ -609,6 +627,7 @@ width:40%;
     width: 200px;
     margin: 20px auto;
     }
+ 
 
     .navbar-toggler{
         display: none;
@@ -625,6 +644,7 @@ width:40%;
 header div.content .logo{
     font-size: 2.5rem;
 }
+
 ul.navbar-nav{
     display: flex;
     list-style: none;
@@ -632,10 +652,16 @@ ul.navbar-nav{
     justify-content: center;
 }
  ul.navbar-nav li{
-padding:5px;
-    
+     font-size: 1.5rem;
+padding:20px;  
 }
-ul.navbar-nav li a:hover{
-    color:#e59d75;
+
+header div.content .navbar-light .navbar-nav .nav-link:hover{
+    color: #e59d75;
+}
+header div.content div.nav-topcaptions h2{
+    font-size: 6rem;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 }
