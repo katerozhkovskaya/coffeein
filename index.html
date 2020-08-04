@@ -108,15 +108,15 @@
         <section class="wins">
             <h2>Наши награды</h2>
             <p>Превосходство наших услуг подтверждено следующими наградами:</p>
-            <div>
+            <div class="cup">
                 <div class="photo"><img src="img/victory-cup-first.png" alt="Кубок с пальмовой ветвью"></div>
                 <p>Лучший бармен (Днепр, 2016)</p>
             </div>
-            <div>
+            <div class="cup">
                 <div class="photo"><img src="img/victory-cup-second.png" alt="Кубок с пальмовой ветвью"></div>
                 <p>Лучшая подача Латте (Киев, 2018)</p>
             </div>
-            <div>
+            <div class="cup">
                 <div class="photo"><img src="img/victory-cup-third.png" alt="Кубок с пальмовой ветвью"></div>
                 <p>Лучший интерьер кофейни (Украина, 2017)</p>
             </div>
@@ -125,18 +125,22 @@
         <section>
             <div class="job"><div class="bg"></div>
                 <div class="content">
+                    <div class="job-block">
                     <h2>Хочешь быть частью нашей команды?</h2>
                     <p>Сейчас мы нанимаем бариста и официантов для наших новых кафе.
                     Не стесняйтесь, присылайте нам свое резюме.</p>
+                    </div>
+                     <div class="job-block">
                     <div class="vacancy">
                         <a href="#">Вакансии</a>
+                    </div>
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <h2 class="gallery">Галлерея</h2>
-
+<div class="gallery-container">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -168,6 +172,7 @@
   </a>
 </div>
             <a class="navigation caffeebutton" href="#">Смотреть все фото</a>
+       </div>
         </section>
 
         <section id="contacts">
@@ -211,12 +216,12 @@
     </main>
     <footer>
         <div class="footer-block">
-            <div>
+            <div class="column">
                 <a href="#" class="logo">CoffeeIn</a>
                 <p>Приглашаем посетить нашу кофейню и попробовать самые вкусные кофейные напитки 
                 в этом районе.</p>
             </div>
-            <div>
+            <div class="column">
                 <nav>
                     <ul><li><a href="menu.html">Меню</a></li>
                     <li><a href="work.html">Вакансии</a></li>
@@ -227,7 +232,7 @@
                     </ul>
                 </nav>
             </div>
-            <div>
+            <div class="column">
                 <p>Подпишитесь, чтобы получать последние новости от нас</p>
                 <div class="registration">
                     <input class="registration" type="email" name="email" required placeholder="Email*">
