@@ -651,3 +651,10 @@ header div.content div.nav-topcaptions h2{
 }
 
 }
+.buttonhome{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
