@@ -13,15 +13,15 @@ function myFunction() {
 countdown();
 setInterval(countdown, 1000);
 function countdown() {
-  var countDownDate = new Date("Sep 1, 2020 00:00:00").getTime();
+  const countDownDate = new Date("Sep 1, 2020 00:00:00").getTime();
 
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
+  let now = new Date().getTime();
+  let distance = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   if (distance <= 0) {
     document.getElementById("sales").classList.add("invisible");
@@ -52,4 +52,20 @@ function declOfNum(number, titles) {
       ? 2
       : cases[number % 10 < 5 ? number % 10 : 5]
   ];
+}
+
+document.getElementById("subscribe").addEventListener("click", checkEmail);
+
+function checkEmail(value) {
+  const valueMail = document.getElementById("mailto").value;
+  if (!validateEmail(valueMail)) {
+    document.getElementById("wrongemail-message").classList.add("visible");
+  } else {
+    document.getElementById("form").submit();
+  }
+}
+
+function validateEmail(email) {
+  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(String(email).toLowerCase());
 }
