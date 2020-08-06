@@ -1,740 +1,755 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Lobster&family=Pacifico&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Lobster&family=Pacifico&display=swap');
-
-*{ 
-    margin:0;
-    padding:0;
-    font-family: 'Balsamiq Sans', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Balsamiq Sans", cursive;
 }
 
-header div.content,section,footer{
-    width:100%;
-    margin: 0 auto;
-    text-align: center;
+header div.content,
+section,
+footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-header div.content{
-    color:#fff;
-    position: absolute;
-    z-index: 3;
-    width: 100%;
+header div.content {
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
 }
-.desctop.nav{
+.desctop.nav {
+  display: none;
+}
+header div.bg {
+  width: 100%;
+  height: 500px;
+  background: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+
+.buttonhome {
+  display: none;
+}
+.invisible{
     display: none;
 }
-header div.bg{ 
-    width:100%;
-    height: 500px;
-    background: #000;
-    opacity: 0.5;z-index: 1;
+
+.visible {
+  display: block;
 }
 
-header div.content .navbar-light .navbar-nav .nav-link{
-    color:#fff;
+header div.content .navbar-light .navbar-nav .nav-link {
+  color: #fff;
 }
-  .buttonhome{
-        position: fixed;
-        right: 20px;
-        bottom: 20px;
-        z-index: 100;
-    }
-    .buttonhome a{
-        display: block;
-        width:42px;
-        height: 42px;
-        background: url(../img/top.svg) no-repeat;
-        background-size: 42px;
-    }
-     .buttonhome a:hover{
-    opacity: 0.7;
-    }
-header div.content  .logo{
-    color:#fff;
-    font-weight: bold;
-    font-size: 1.8rem;
+.buttonhome {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
 }
-header div.content .logo:hover{
-   color: white;
+.buttonhome a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url(../img/top.svg) no-repeat;
+  background-size: 42px;
 }
-
-header div.content .nav-placeholder{
-    padding-bottom: 60px;
+.buttonhome a:hover {
+  opacity: 0.7;
+}
+header div.content .logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+header div.content .logo:hover {
+  color: white;
 }
 
-header div.content div.nav-headertext{
-    min-height: 440px;
+header div.content .nav-placeholder {
+  padding-bottom: 60px;
 }
 
-header div.content div.nav-topcaptions{
-    font-weight: bold;
+header div.content div.nav-headertext {
+  min-height: 440px;
 }
 
-header div.content div.nav-topcaptions h2{       
-    font-size: 3.5rem;line-height:4rem;
+header div.content div.nav-topcaptions {
+  font-weight: bold;
 }
 
-header div.content div.nav-topcaptions h3{  
-    font-size: 2rem;
-    line-height: 2rem;
+header div.content div.nav-topcaptions h2 {
+  font-size: 3.5rem;
+  line-height: 4rem;
 }
 
-ul{
-    list-style: none;
+header div.content div.nav-topcaptions h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+ul {
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-} 
+  text-decoration: none;
+}
 
 .dark-blue-text {
-    color: #0A38F5;
+  color: #0a38f5;
 }
 
-.openmenu{
-    width:32px;
-    height: 32px;
-    background: url(../img/menu.svg) no-repeat;
-    background-size:32px;
-    display: block;
+.openmenu {
+  width: 32px;
+  height: 32px;
+  background: url(../img/menu.svg) no-repeat;
+  background-size: 32px;
+  display: block;
 }
 
-.openmenu:hover{
-    opacity: 0.6;
+.openmenu:hover {
+  opacity: 0.6;
 }
 
- a:hover {
-    color: orange;
- }
- a.booking.caffeebutton:hover{
-            text-decoration: none;
+a:hover {
+  color: orange;
+}
+a.booking.caffeebutton:hover {
+  text-decoration: none;
 }
 
- .caffeebutton{
-    padding: 20px;
-    font-size: 0.8rem;  
- }
+.caffeebutton {
+  padding: 20px;
+  font-size: 0.8rem;
+}
 
- .booking{
-    background-color: #988378;
-    color: #fff;
- }
+.booking {
+  background-color: #988378;
+  color: #fff;
+}
 
- .booking:hover{
+.booking:hover {
   border: 2px solid #cfa893;
   color: white;
- }
-
- .banner {
-    background-image:  url(../img/banner.jpeg);
-    display: flex;
-    background-position: top;
-    background-size: cover;
-    min-height: 500px;
- }
-
-section h2{
-    font-weight: bold;
-    margin: 30px auto;
-    font-size: 1.8rem;
 }
 
-.fourcups{
-    background: url(../img/four-cups-coffee.png) no-repeat; 
-}
-.sendvich{
-    background: url(../img/sendvich-with-eggs.png) no-repeat;
-}
-
-.menucard{
-    background-position: top center;
-    background-size: cover;
-    min-height: 220px;
-    color:#fff;
-    margin-bottom: 10px;
+.banner {
+  background-image: url(../img/banner.jpeg);
+  display: flex;
+  background-position: top;
+  background-size: cover;
+  min-height: 500px;
 }
 
-.menucard div.content{
-    position: absolute;
-    font-size: 1.1rem;
-    z-index: 3;
-    padding:40px 20px 40px 20px;
-    width:100%;
+section h2 {
+  font-weight: bold;
+  margin: 30px auto;
+  font-size: 1.8rem;
 }
 
-.menucard div.content p{
-    margin:0px auto;
-    font-size: 1.2rem;
+.fourcups {
+  background: url(../img/four-cups-coffee.png) no-repeat;
 }
-.menucard h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-.menucard div.bg{
-    opacity: 0.5;
-    z-index: 2;
-    background: #000;
-    width:100%;
-    height: 220px;
-    position: absolute;
-}
-.menucard div.content a.small-orange, .cafecard a.small-orange{
-    font-size: 1rem;
-    color: #e59d75;
-}
- .navigation{
-   margin: 20px auto;
-    color: #27292b;
-    border-color: #ecc9b7;
-    border-style: solid;
-    border-width: 2px;
-    display: inline-block;
-    padding: 10px 20px 10px 20px;
- }
-
-.navigation:hover{
-    color: #27292b;
-    text-decoration: none;
-    border-color: #ddb19b;
+.sendvich {
+  background: url(../img/sendvich-with-eggs.png) no-repeat;
 }
 
-.cafe, .wins{
-    background: url(../img/fon.png) no-repeat;
-    background-size: cover;
-    height: auto;
+.menucard {
+  background-position: top center;
+  background-size: cover;
+  min-height: 220px;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
-.cafe h2, .wins{
-    padding: 20px;
-    color: #fff;
+.menucard div.content {
+  position: absolute;
+  font-size: 1.1rem;
+  z-index: 3;
+  padding: 40px 20px 40px 20px;
+  width: 100%;
 }
 
-.photo, form{
-    margin: 20px;
+.menucard div.content p {
+  margin: 0px auto;
+  font-size: 1.2rem;
+}
+.menucard h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.menucard div.bg {
+  opacity: 0.5;
+  z-index: 2;
+  background: #000;
+  width: 100%;
+  height: 220px;
+  position: absolute;
+}
+.menucard div.content a.small-orange,
+.cafecard a.small-orange {
+  font-size: 1rem;
+  color: #e59d75;
+}
+.navigation {
+  margin: 20px auto;
+  color: #27292b;
+  border-color: #ecc9b7;
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
 }
 
-  .about{
-    background-color: #fff;
-    width: 90%;
-    margin: 0 auto 20px auto;
-    font-size: 1.2rem;
-    text-align: left;
-    padding: 20px;
+.navigation:hover {
+  color: #27292b;
+  text-decoration: none;
+  border-color: #ddb19b;
 }
 
-.cafecard img{
-    width: 90%;
-}
-.history p{
-padding: 0px 40px 0px 40px;
-font-size: 1.2rem;  
-}
-
-.cafebutton{
-    display: inline-block;
-    margin-bottom: 30px;
-}
-   
-.photo img{
-    width:70%;
-  
+.cafe,
+.wins {
+  background: url(../img/fon.png) no-repeat;
+  background-size: cover;
+  height: auto;
 }
 
-.wins p, .job p{
-    font-size: 1.2rem;
-    padding-bottom: 50px;
+.cafe h2,
+.wins {
+  padding: 20px;
+  color: #fff;
 }
 
-.job p, .job h2{
-    color: #fff;
-    margin-left: 50px;
+.photo,
+form {
+  margin: 20px;
 }
 
-.job h2{
-    font-size: 1.6rem;
-   }
-
-.job{
-    background: url(../img/fon-seeds.png) no-repeat;
-    background-size: cover;
-    min-height: 400px;
+.about {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 20px;
 }
 
-.job a{
-    background-color: white;
-    color: black;
-    padding: 20px 30px 20px 30px;
+.cafecard img {
+  width: 90%;
+}
+.history p {
+  padding: 0px 40px 0px 40px;
+  font-size: 1.2rem;
 }
 
-.job a:hover{
-    background-color: #e59e79;
-    color:white;
-    padding: 20px 30px 20px 30px;
-    text-decoration: none;
+.cafebutton {
+  display: inline-block;
+  margin-bottom: 30px;
 }
 
-.vacancy{
-    text-align: right;
-    margin-bottom: 40px;
+.photo img {
+  width: 70%;
 }
 
-.job div.bg{ 
-    width:100%;
-    min-height: 400px;
-    background: rgba(152, 131, 120, 0.95);
-    z-index: 1;
-    position: absolute;
+.wins p,
+.job p {
+  font-size: 1.2rem;
+  padding-bottom: 50px;
 }
 
-.job .content{
-    position: absolute;
-    z-index: 2;
-    text-align: left;
-    padding: 20px;
+.job p,
+.job h2 {
+  color: #fff;
+  margin-left: 50px;
 }
 
-.gallery{
-    color: black;
+.job h2 {
+  font-size: 1.6rem;
 }
 
-.carousel.slide{
-    margin: 10px;
+.job {
+  background: url(../img/fon-seeds.png) no-repeat;
+  background-size: cover;
+  min-height: 400px;
 }
 
-.addres{
-    color: black;
-    text-align: left;
-    padding-left: 30px;
+.job a {
+  background-color: white;
+  color: black;
+  padding: 20px 30px 20px 30px;
 }
 
-.addres .logo{
-    font-size: 2rem;
-    color: black;
-    text-decoration: none;
+.job a:hover {
+  background-color: #e59e79;
+  color: white;
+  padding: 20px 30px 20px 30px;
+  text-decoration: none;
 }
 
-.addres a{
-        color: #e59d75;
+.vacancy {
+  text-align: right;
+  margin-bottom: 40px;
 }
 
-.addres p{
-    font-size: 1.1rem;
-         color: #71706f;
-        margin-bottom: 20px;
+.job div.bg {
+  width: 100%;
+  min-height: 400px;
+  background: rgba(152, 131, 120, 0.95);
+  z-index: 1;
+  position: absolute;
 }
 
-.addres h3{
-    margin-top: 20px;
-    font-size: 1.3rem;
-    font-weight: bold;    
+.job .content {
+  position: absolute;
+  z-index: 2;
+  text-align: left;
+  padding: 20px;
 }
 
-#contacts{
-    background: url(../img/fon-grey.png) no-repeat;
-    background-size: cover;
-    padding-bottom: 50px;
-}
-#contacts h2{
-    padding: 20px;
+.gallery {
+  color: black;
 }
 
-footer{
-    background-color: #27292b;
-    color: white;
-    font-size: 1.1rem;
+.carousel.slide {
+  margin: 10px;
 }
 
-footer a{
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
+.addres {
+  color: black;
+  text-align: left;
+  padding-left: 30px;
 }
 
-footer a:hover{
-   color: #e59d75;
-   text-decoration: none;
+.addres .logo {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
 }
 
-.registration{
-    text-align: center;
-    font-size: 0.9rem;
+.addres a {
+  color: #e59d75;
 }
 
-footer div a.logo{
-    font-style: bold;
-    font-size: 2rem;
+.addres p {
+  font-size: 1.1rem;
+  color: #71706f;
+  margin-bottom: 20px;
 }
 
-footer div a.logo:hover{
-    color: white;
+.addres h3 {
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
-footer div.footer-block{
-    padding-top: 20px;
+#contacts {
+  background: url(../img/fon-grey.png) no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
-footer div.registration{
-    margin: 20px;
+#contacts h2 {
+  padding: 20px;
 }
-.author{
-    display: block;
-    font-size: 0.8rem;
-    opacity: 0.8;
-    font-style: normal;
- }
 
-hr{
-    background-color:  white;
-    margin: 0 20px 0 20px;
+footer {
+  background-color: #27292b;
+  color: white;
+  font-size: 1.1rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+footer a:hover {
+  color: #e59d75;
+  text-decoration: none;
+}
+
+.registration {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer div a.logo {
+  font-style: bold;
+  font-size: 2rem;
+}
+
+footer div a.logo:hover {
+  color: white;
+}
+
+footer div.footer-block {
+  padding-top: 20px;
+}
+footer div.registration {
+  margin: 20px;
+}
+.author {
+  display: block;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  font-style: normal;
+}
+
+hr {
+  background-color: white;
+  margin: 0 20px 0 20px;
 }
 
 .registration input {
-    margin: 10px;
-    padding: 10px 20px 10px 20px;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
 }
 .registration button {
-    margin: 10px;
-
+  margin: 10px;
 }
-.registration button, .form-submit button{
-    
-    width: 100%;
-    padding: 10px;
-    background-color: #988378;
-    border: none;
-    color: white;
-}
-
-.registration button:hover, .form-submit button:hover{
-    border: 2px solid #cfa893;    
+.registration button,
+.form-submit button {
+  width: 100%;
+  padding: 10px;
+  background-color: #988378;
+  border: none;
+  color: white;
 }
 
-.registration input{
-    margin: 10px;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.24);
-    border: none;
+.registration button:hover,
+.form-submit button:hover {
+  border: 2px solid #cfa893;
 }
 
-.form-back{
-    background-image:  url(../img/tables-and-chairs-black.png);
-    display: flex;
-    background-position: top;
-    background-size: cover;
-    min-height: 500px;
+.registration input {
+  margin: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
 }
 
-section .book-form{
-    margin: 20px;
-    background-color: white;
-    color: black;  
-    width: 100%; 
+.form-back {
+  background-image: url(../img/tables-and-chairs-black.png);
+  display: flex;
+  background-position: top;
+  background-size: cover;
+  min-height: 500px;
 }
 
-.book-form h3{
-    margin: 50px 0 0 0;
-    font-weight: bold;
-    font-size: 2rem;
+section .book-form {
+  margin: 20px;
+  background-color: white;
+  color: black;
+  width: 100%;
 }
 
-.book-form p{
-    font-size: 1.5rem;
-    color: #71706f;
-}
- 
- .info{
-    padding: 10px;
-    text-align: left;
-    background-color: rgba(39, 41, 43, 0.12);
-    width: 100%;
-    border: none;
-    margin-bottom: 20px;
-}
-.embedmap iframe{
-    width:90%;
-    margin: auto 0px;
-    height: 350px;
-}
-.author p{
-    margin: 20px;
+.book-form h3 {
+  margin: 50px 0 0 0;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
-@media (min-width: 800px) {
- section .book-form{
-    max-width: 700px;
-   
-    margin:  40px auto;
-}
-    #contacts div{
-        display: inline-block;
-       
-        vertical-align: top;
-    }
-    #contacts div.embedmap{
-    width:70%;
-    }
-    section .gallery-container{
-           max-width: 1200px;
-   
-    margin:  40px auto;
-          
-    }
-    .job .content{
-        width: 100%;
-    }
-    .job div.job-block{
-          display:inline-block;
-        vertical-align: middle;
-        max-width: 70%;
-    }
-    .job div.job-block .vacancy{
-        position: absolute;
-        right:100px;
-    }
-    .wins .cup{
- display: inline-block;
-       
-        vertical-align: middle;
-        width:33%;
-    }
-    .wins .cup img{
-        width:70%;
-    }
-    .column{
-        display: inline-block;
-        vertical-align: middle;
-        width:33%;
-    }
-    
-    .author{
-       display: inline-block;
-        vertical-align: middle;
-        width:49%; 
-
-    }
-    .right{
-        text-align: right;
-    }
-    .left{
-        text-align: left;
-    }
-    .center{
-        text-align: center;
-    }
-    .footer-block{
-        white-space: nowrap;
-    }
-   
-     .footer-block div.column{
-         white-space: normal;
-         padding: 30px;
-     }
-    .footer-block .column ul{
-         columns: 2;
-    }
-    .footer-block .registration input{
-display: inline-block;
-    }
-        .footer-block .registration button{
-display: inline-block;
-    }
-    .column20{
-        width: 28%;
-    }
-      .column60{
-        width: 40%;
-    }
-    .cafe .cafecard{
-       
-        width:100%;
-        vertical-align: top;
-    }
-    div.cafecard-container{
-       max-width: 90%;
-       margin: 0 auto;
-      background: #fff;
-       display: block;
-    }
-     div.cafecard-container .cafecard{
-         white-space: nowrap; 
-        
-     }
-    .img-wrapper{
-      width: 50%;
-        height: 460px;
-       display: inline-block;
-        overflow: hidden;
-        max-width: 50%;
-        vertical-align: top;
-    }
-    .cafecard img{
-        width:100%;
-        min-height: 100%;
-    }
-     div.cafecard-container .cafecard div.about{
-         width: 50%;
-         height: 440px;
-          display: inline-block;
-           white-space: normal;
-             max-width: 50%;
-                vertical-align: top;
-                padding-top: 160px;
-     }
-     .flleft{
-         float: left;
-     }
-    
-    .cafebutton{
-            display: block;
-    margin-bottom: 30px;
-    width: 200px;
-    margin: 20px auto;
-    }
-    .cafe{
-        padding-bottom: 10px;
-    }
-.menucard{
-      display: inline-block;
-        vertical-align: middle;
-        width:40%;    
-        
-   }
-  .menucard div.bg{
-       width:40%;
-   }
-.menucard div.content{
-width:40%;
+.book-form p {
+  font-size: 1.5rem;
+  color: #71706f;
 }
 
- #menu .caffeebutton{
-            display: block;
-    margin-bottom: 30px;
-    width: 200px;
-    margin: 20px auto;
-    }
- 
-
-    .navbar-toggler{
-        display: none;
-    }
-.collapse:not(.show){
-    display: block;
+.info {
+  padding: 10px;
+  text-align: left;
+  background-color: rgba(39, 41, 43, 0.12);
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
 }
-.navbar{
-     display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: center;
+.embedmap iframe {
+  width: 90%;
+  margin: auto 0px;
+  height: 350px;
 }
-header div.content .logo{
-    font-size: 2.5rem;
-}
-
-ul.navbar-nav{
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: center;
-}
- ul.navbar-nav li{
-     font-size: 1.5rem;
-padding:20px;  
-}
-
-header div.content .navbar-light .navbar-nav .nav-link:hover{
-    color: #e59d75;
-}
-header div.content div.nav-topcaptions h2{
-    font-size: 6rem;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
-
-}
-.buttonhome{
-    display: none;
-}
-
-.visible{
-    display: block;
-}
-
-.countdown {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.countdown span {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-    font-size: 3rem;
-    margin-left: 0.8rem;
-}
-
-.countdown span:first-of-type {
-    margin-left: 0;
-}
-
-.countdown-circles {
-    text-transform: uppercase;
-    font-weight: bold;
+.author p {
+  margin: 20px;
 }
 
 .countdown-circles span {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
+font-size: 2rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+label{
+    font-size: 0.6rem;
+}
+.countdown-circles span:first-of-type {
+  margin-left: 0;
+}
+.sales h3{
+    margin: 20px;
+}
+.rounded {
+  border-radius: 1rem;
+}
+
+.sales-stop{
+    margin: 30px 0 30px 0;
+}
+
+@media (min-width: 800px) {
+  section .book-form {
+    max-width: 700px;
+    margin: 40px auto;
+  }
+
+  #contacts div {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #contacts div.embedmap {
+    width: 70%;
+  }
+
+  section .gallery-container {
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+
+  .job .content {
+    width: 100%;
+  }
+
+  .job div.job-block {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 70%;
+  }
+
+  .job div.job-block .vacancy {
+    position: absolute;
+    right: 100px;
+  }
+
+  .wins .cup {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33%;
+  }
+
+  .wins .cup img {
+    width: 70%;
+  }
+
+  .column {
+    display: inline-block;
+    vertical-align: middle;
+    width: 33%;
+  }
+
+  .author {
+    display: inline-block;
+    vertical-align: middle;
+    width: 49%;
+  }
+
+  .right {
+    text-align: right;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .footer-block {
+    white-space: nowrap;
+  }
+
+  .footer-block div.column {
+    white-space: normal;
+    padding: 30px;
+  }
+
+  .footer-block .column ul {
+    columns: 2;
+  }
+
+  .footer-block .registration input {
+    display: inline-block;
+  }
+
+  .footer-block .registration button {
+    display: inline-block;
+  }
+
+  .column20 {
+    width: 28%;
+  }
+
+  .column60 {
+    width: 40%;
+  }
+
+  .cafe .cafecard {
+    width: 100%;
+    vertical-align: top;
+  }
+
+  div.cafecard-container {
+    max-width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    display: block;
+  }
+
+  div.cafecard-container .cafecard {
+    white-space: nowrap;
+  }
+
+  .img-wrapper {
+    width: 50%;
+    height: 460px;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 50%;
+    vertical-align: top;
+  }
+
+  .cafecard img {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  div.cafecard-container .cafecard div.about {
+    width: 50%;
+    height: 440px;
+    display: inline-block;
+    white-space: normal;
+    max-width: 50%;
+    vertical-align: top;
+    padding-top: 160px;
+  }
+
+  .flleft {
+    float: left;
+  }
+
+  .cafebutton {
+    display: block;
+    margin-bottom: 30px;
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .cafe {
+    padding-bottom: 10px;
+  }
+
+  .menucard {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+  }
+
+  .menucard div.bg {
+    width: 40%;
+  }
+
+  .menucard div.content {
+    width: 40%;
+  }
+
+  #menu .caffeebutton {
+    display: block;
+    margin-bottom: 30px;
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .collapse:not(.show) {
+    display: block;
+  }
+
+  .navbar {
     display: flex;
-    align-items: center;
+    list-style: none;
+    flex-direction: row;
     justify-content: center;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  header div.content .logo {
+    font-size: 2.5rem;
+  }
+
+  ul.navbar-nav {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  ul.navbar-nav li {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  header div.content .navbar-light .navbar-nav .nav-link:hover {
+    color: #e59d75;
+  }
+
+  header div.content div.nav-topcaptions h2 {
+    font-size: 6rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+.countdown-circles {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.countdown-circles span {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .countdown-circles span:first-of-type {
-    margin-left: 0;
-}
-body {
-    min-height: 100vh;
-}
-
-.bg-gradient-1 {
-    background: #7f7fd5;
-    background: -webkit-linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
-    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
-}
-
-.bg-gradient-2 {
-    background: #654ea3;
-    background: -webkit-linear-gradient(to right, #654ea3, #eaafc8);
-    background: linear-gradient(to right, #654ea3, #eaafc8);
-}
-
-.bg-gradient-3 {
-    background: #ff416c;
-    background: -webkit-linear-gradient(to right, #ff416c, #ff4b2b);
-    background: linear-gradient(to right, #ff416c, #ff4b2b);
-}
-
-.bg-gradient-4 {
-    background: #007991;
-    background: -webkit-linear-gradient(to right, #007991, #78ffd6);
-    background: linear-gradient(to right, #007991, #78ffd6);
+  margin-left: 0;
 }
 
 .rounded {
-    border-radius: 1rem !important;
+  border-radius: 2rem;
 }
-
-.btn-demo {
-    padding: 0.5rem 2rem !important;
-    border-radius: 30rem !important;
-    background: rgba(255, 255, 255, 0.3);
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold !important;
+label{
+    font-size: 1rem;
 }
-
-.btn-demo:hover, .btn-demo:focus {
-    color: #fff;
-    background: rgba(255, 255, 255, 0.5);
+.sales-stop{
+    margin: 50px;
+}
 }

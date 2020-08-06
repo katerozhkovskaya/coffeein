@@ -23,23 +23,27 @@ function countdown() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  if (distance <= 0) {
+    document.getElementById("sales").classList.add("invisible");
+  }
   document.getElementById("clock-b").innerHTML =
     '<span class="h1 font-weight-bold">' +
     days +
-    "</span> " +
+    "</span><label>" +
     declOfNum(days, ["день", "дня", "дней"]) +
-    '<span class="h1 font-weight-bold">' +
+    '</label><span class="h1 font-weight-bold">' +
     hours +
-    "</span> " +
+    "</span><label>" +
     declOfNum(hours, ["час", "часа", "часов"]) +
-    '<span class="h1 font-weight-bold">' +
+    '</label><span class="h1 font-weight-bold">' +
     minutes +
-    "</span> " +
+    "</span><label>" +
     declOfNum(minutes, ["минута", "минуты", "минут"]) +
-    '<span class="h1 font-weight-bold">' +
+    '</label><span class="h1 font-weight-bold">' +
     seconds +
-    "</span> " +
-    declOfNum(seconds, ["секунда", "секунды", "секунд"]);
+    "</span><label>" +
+    declOfNum(seconds, ["секунда", "секунды", "секунд"]) +
+    "</label>";
 }
 function declOfNum(number, titles) {
   cases = [2, 0, 1, 1, 1, 2];
